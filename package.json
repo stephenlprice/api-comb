@@ -1,0 +1,15 @@
+{
+  "name": "use-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node lint.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stoplight/spectral": "^5.9.0"
+  }
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "code": "fhir-type-pascal-case",
+    "message": "/api/devices/{accountid} is not PascalCase: must match the pattern '^(\\/)?[A-Z][a-zA-Z0-9]*(\\/)?'",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 49,
+        "character": 29
+      },
+      "end": {
+        "line": 580,
+        "character": 81
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "deviceClass"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 109,
+        "character": 32
+      },
+      "end": {
+        "line": 110,
+        "character": 34
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "spaceID"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 111,
+        "character": 28
+      },
+      "end": {
+        "line": 112,
+        "character": 34
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "alexaCompatible"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 113,
+        "character": 36
+      },
+      "end": {
+        "line": 114,
+        "character": 35
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "dateCreated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 125,
+        "character": 32
+      },
+      "end": {
+        "line": 128,
+        "character": 53
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "get",
+      "responses",
+      "200",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "dateUpdated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 129,
+        "character": 32
+      },
+      "end": {
+        "line": 132,
+        "character": 53
+      }
+    }
+  },
+  {
+    "code": "oas3-request-support-xml",
+    "message": "Every request SHOULD support `application/xml` media type: `content` property is not falsy",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 402,
+        "character": 16
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "alexaCompatible"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 406,
+        "character": 20
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "dateCreated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 406,
+        "character": 20
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "dateUpdated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 406,
+        "character": 20
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "deviceClass"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 406,
+        "character": 20
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "post",
+      "requestBody",
+      "content",
+      "application/json",
+      "schema",
+      "items",
+      "properties",
+      "spaceID"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 406,
+        "character": 20
+      },
+      "end": {
+        "line": 406,
+        "character": 27
+      }
+    }
+  },
+  {
+    "code": "oas3-request-support-application/json",
+    "message": "Every request MUST support `application/json` media type: `content` property is not falsy",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content"
+    ],
+    "severity": 0,
+    "range": {
+      "start": {
+        "line": 484,
+        "character": 16
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content",
+      "application/xml",
+      "schema",
+      "properties",
+      "alexaCompatible"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 486,
+        "character": 19
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content",
+      "application/xml",
+      "schema",
+      "properties",
+      "dateCreated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 486,
+        "character": 19
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content",
+      "application/xml",
+      "schema",
+      "properties",
+      "dateUpdated"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 486,
+        "character": 19
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content",
+      "application/xml",
+      "schema",
+      "properties",
+      "deviceClass"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 486,
+        "character": 19
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "parameter-description",
+    "message": "Parameters must have a description.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "put",
+      "requestBody",
+      "content",
+      "application/xml",
+      "schema",
+      "properties",
+      "spaceID"
+    ],
+    "severity": 1,
+    "range": {
+      "start": {
+        "line": 486,
+        "character": 19
+      },
+      "end": {
+        "line": 486,
+        "character": 26
+      }
+    }
+  },
+  {
+    "code": "operation-singular-tag",
+    "message": "Operation may only have one tag.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "delete",
+      "tags"
+    ],
+    "severity": 3,
+    "range": {
+      "start": {
+        "line": 495,
+        "character": 11
+      },
+      "end": {
+        "line": 497,
+        "character": 13
+      }
+    }
+  },
+  {
+    "code": "operation-default-response",
+    "message": "Operations must have a default response.",
+    "path": [
+      "paths",
+      "/api/devices/{accountid}",
+      "delete",
+      "responses"
+    ],
+    "severity": 2,
+    "range": {
+      "start": {
+        "line": 532,
+        "character": 16
+      },
+      "end": {
+        "line": 572,
+        "character": 28
+      }
+    }
+  }
+]
